@@ -78,19 +78,19 @@ public class Determinant {
              + matrices[1, 2] * ((matrices[3, 1] * matrices[2, 0]) - (matrices[2, 1] * matrices[3, 0]))
           );
 
-
+            // Add determinant together
             double totalDeterminant = determinant1 - determinant2 + determinant3 - determinant4;
 
             Console.WriteLine("This is the determinant of your 4*4 matrix \n"+totalDeterminant);
 
-            //fuction bracket
+         
         }
 
 
-        // class bracket
+      
     }
 
 
 
-// namespace bracket
+
  }
